@@ -8,7 +8,7 @@ GIPHY is proud to release our custom machine learning model that is able to disc
 
 This project was developed by the GIPHY R&D team with the goal to build a deep learning model that could annotate our most popular content as well as, or hopefully better than, similar models offered by major tech companies. We’re extremely proud of our results, and have released this model and training code to the public in hopes that others might build off our work, integrate the model into their own projects, or perhaps learn from our approach.
 
-Read more about the project on the GIPHY engineering blog (BLOG POST LINK).
+Read more about the project on the [GIPHY engineering blog](https://engineering.giphy.com/giphys-ai-can-identify-lil-yachty-can-yours).
 
 You can play with the model on the [demo page](https://celebrity-detection.giphy.com/), and we’ve provided a [3D projection](https://celebrity-detection-projector.giphy.com/) of all our celebrity class embeddings along with a [list of all celebrities](https://github.com/Giphy/celeb-detection-oss/blob/master/examples/resources/face_recognition/labels.csv) available with the model.
 
