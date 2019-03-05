@@ -1,6 +1,6 @@
 # GIPHY Celebrity Detector
 
-GIPHY's open source Celebrity Detection ML Model and Code
+GIPHY's open source Celebrity Detection Deep Learning Model and Code
 
 ## About
 
