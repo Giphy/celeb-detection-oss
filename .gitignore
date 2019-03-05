@@ -1,0 +1,15 @@
+tmp
+__pycache__
+geckodriver.log
+config.json
+.DS_Store
+.idea
+.vscode
+.python-version
+.ipynb_checkpoints
+*.egg-info
+.cache
+.env
+resources/*
+resources.tar.gz
+!resources/labels.csv

@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block body %}
+<form class="pure-form" action="/process" method="post">
+    <fieldset>
+        <legend>Paste direct URL to .jpg .png .gif .mp4 with face</legend>
+        <input type="text" name="image_url" placeholder="direct url to image">
+
+        <button type="submit" class="pure-button pure-button-primary">Process</button>
+    </fieldset>
+    <h3>Available {{ available_labels | count }} labels</h3>
+    <ul>
+      {% for label in available_labels %}
+        <li>{{ label.folder_name }}</li>
+      {% endfor %}
+    </ul>
+</form>
+{% endblock %}

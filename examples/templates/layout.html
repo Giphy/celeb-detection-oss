@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+    <style>
+      .wrapper {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .pure-menu-heading {
+        font-size: 2rem;
+      }
+
+      img {
+        border: 1px solid #888;
+        max-width: 640px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="pure-menu pure-menu-horizontal">
+      <a class="pure-menu-heading" href="/">Face detection and recognition demo</a>
+    </header>
+    <div class="wrapper">
+      {% block body %}{% endblock %}
+    </div>
+  </body>
+</html>

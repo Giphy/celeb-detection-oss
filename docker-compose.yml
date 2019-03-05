@@ -1,0 +1,15 @@
+version: "3"
+services:
+  celebrity-detection-model-train:
+    image: celebrity-detection-model-train
+    build:
+      context: .
+      dockerfile: Dockerfile
+    network_mode: bridge
+    shm_size: '8gb'
+    ports:
+      - "${TENSORBOARD_PORT}:${TENSORBOARD_PORT}"
+    volumes:
+      - "${LOCAL_WORKDIR}:${WORKDIR}"
+    env_file:
+      - .env
