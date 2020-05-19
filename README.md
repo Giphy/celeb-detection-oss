@@ -10,7 +10,7 @@ This project was developed by the GIPHY R&D team with the goal to build a deep l
 
 Read more about the project on the [GIPHY engineering blog](https://engineering.giphy.com/giphys-ai-can-identify-lil-yachty-can-yours).
 
-You can play with the model on the [demo page](https://celebrity-detection.giphy.com/), and we’ve provided a [3D projection](https://celebrity-detection-projector.giphy.com/) of all our celebrity class embeddings along with a [list of all celebrities](https://github.com/Giphy/celeb-detection-oss/blob/master/examples/resources/face_recognition/labels.csv) available with the model.
+We’ve provided a [list of all celebrities](https://github.com/Giphy/celeb-detection-oss/blob/master/examples/resources/face_recognition/labels.csv) available with the model.
 
 Thank you!
 
