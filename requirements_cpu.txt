@@ -6,10 +6,10 @@ tensorflow==1.15.2
 scikit-image==0.13.1
 scikit-learn==0.19.1
 numpy==1.15.1
-moviepy==0.2.3.5
+moviepy==1.0.0
 requests==2.18.4
 keras==2.0.9
 python-dotenv==0.7.1
 tensorboardX==1.4
-pretrainedmodels==0.7.4
 torch==0.4.1
+torchvision==0.2.1
