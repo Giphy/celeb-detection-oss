@@ -2,7 +2,7 @@ imgaug==0.2.5
 opencv-python==3.4.0.12
 six==1.11.0
 scipy==1.1.0
-tensorflow==1.15.2
+tensorflow==2.11.1
 scikit-image==0.13.1
 scikit-learn==0.19.1
 numpy==1.15.1
