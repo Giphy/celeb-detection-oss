@@ -85,7 +85,7 @@ class Network(object):
         session: The current TensorFlow session
         ignore_missing: If true, serialized weights for missing layers are ignored.
         '''
-        data_dict = np.load(data_path, encoding='latin1').item()
+        data_dict = np.load(data_path, encoding='latin1', allowed_pickle=True).item()
 
         for op_name in data_dict:
             with tf.variable_scope(op_name, reuse=True):
